@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This repository contains the implementation of the paper, Learning to Weight Samples for Dynamic Early-exiting Networks (ECCV 2022). The proposed method adopts a weight prediction network to weight the training loss of different samples for dynamic early exiting networks, such as [MSDNet][] and [RANet][], and improves their performance in the dynamic early exiting scenario. 
+This repository contains the implementation of the paper, *Learning to Weight Samples for Dynamic Early-exiting Networks* (**ECCV** 2022). The proposed method adopts a weight prediction network to weight the training loss of different samples for dynamic early-exiting networks, such as [MSDNet][] and [RANet][], and improves their performance in the dynamic early exiting scenario. 
 
 ### Overall idea
 
@@ -108,9 +108,9 @@ CUDA_VISIBLE_DEVICES=0 python tools/eval_imagenet.py \
 
 If you have any questions, please feel free to contact the authors. 
 
-Yizeng Han: [hanyz18@mails.tsinghua.edu.cn](mailto:hanyz18@mails.tsinghua.edu.cn), [yizeng38@gmail.com](mailto:yizeng38@gmail.com)
+Yizeng Han: [hanyz18@mails.tsinghua.edu.cn](mailto:hanyz18@mails.tsinghua.edu.cn), [yizeng38@gmail.com](mailto:yizeng38@gmail.com).
 
-Yifan Pu: [pyf20@mails.tsinghua.edu.cn](mailto:pyf20@mails.tsinghua.edu.cn), [yifanpu98@126.com](mailto:yifanpu98@126.com)
+Yifan Pu: [pyf20@mails.tsinghua.edu.cn](mailto:pyf20@mails.tsinghua.edu.cn), [yifanpu98@126.com](mailto:yifanpu98@126.com).
 
 
 
