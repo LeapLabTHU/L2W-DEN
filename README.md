@@ -95,7 +95,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/eval_imagenet.py \
 ![result_IN](./figs/result_IN.jpg)
 
 ### Pre-trained Models on ImageNet
-|model config|epoches|labelsmooth|acc_exit1|acc_exit2|acc_exit3|acc_exit4|acc_exit5|Checkpoint Link|
+|model config|epochs|labelsmooth|acc_exit1|acc_exit2|acc_exit3|acc_exit4|acc_exit5|Checkpoint Link|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |   step=4   |  100  |    N/A    |  59.54  |  67.22  |  71.03  |  72.33  |  73.93  |[Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/469af5c3b186439b84cd/?dl=1) / [Google Drive](https://drive.google.com/file/d/1etEWSBcvuHBXJXCgbcQsm0P1raXkbKFh/view?usp=sharing)|
 |   step=6   |  100  |    N/A    |  60.05  |  69.13  |  73.33  |  75.19  |  76.30  |[Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/66e2ed9a4d9241a79602/?dl=1) / [Google Drive](https://drive.google.com/file/d/1jTib6QTRt1LUHC2IOcjtxGuzEE2rAnab/view?usp=sharing)|
