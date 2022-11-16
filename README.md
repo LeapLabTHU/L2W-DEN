@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This repository contains the implementation of the paper, *Learning to Weight Samples for Dynamic Early-exiting Networks* (**ECCV** 2022). The proposed method adopts a weight prediction network to weight the training loss of different samples for dynamic early-exiting networks, such as [MSDNet][] and [RANet][], and improves their performance in the dynamic early exiting scenario. 
+This repository contains the implementation of the paper, *[Learning to Weight Samples for Dynamic Early-exiting Networks][]* (**ECCV** 2022). The proposed method adopts a weight prediction network to weight the training loss of different samples for dynamic early-exiting networks, such as [MSDNet][] and [RANet][], and improves their performance in the dynamic early exiting scenario. 
 
 ### Overall idea
 
@@ -131,3 +131,4 @@ We use the pytorch implementation of [MSDNet-PyTorch][], [RANet-PyTorch][] and [
 [MSDNet-PyTorch]:https://github.com/kalviny/MSDNet-PyTorch
 [RANet-PyTorch]:https://github.com/yangle15/RANet-pytorch
 [IMTA]:https://github.com/kalviny/IMTA
+[Learning to Weight Samples for Dynamic Early-exiting Networks]: https://arxiv.org/pdf/2209.08310.pdf
