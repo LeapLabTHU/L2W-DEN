@@ -82,7 +82,17 @@ CUDA_VISIBLE_DEVICES=0 python tools/eval_imagenet.py \
 --evaluate_from YOUR_CKPT_PATH
 ```
 
+- Train a MSDNet (5 exits) on CIFAR100:
 
+```bash
+CUDA_VISIBLE_DEVICES=0 python tools/main_cifar_DDP.py \
+--train_url YOUR_SAVE_PATH \
+--data_url YOUR_DATA_PATH --data cifar100 --workers 1 --seed 1 \
+--arch msdnet --nBlocks 5 --stepmode lin_grow --step 1 --base 1 --nChannels 16 \
+--meta_net_hidden_size 500 --meta_net_num_layers 1 --meta_interval 1 --meta_lr 1e-4 --meta_weight_decay 1e-4 \
+--epsilon 0.8 --target_p_index 15 --meta_net_input_type loss --constraint_dimension col \
+--epochs 300 --batch-size 1024 --lr 0.8 --lr-type cosine --print-freq 10
+```
 
 ### Results
 
